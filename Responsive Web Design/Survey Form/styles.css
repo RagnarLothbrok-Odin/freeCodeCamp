@@ -70,6 +70,35 @@ form {
     margin-bottom: 5px;
 }
 
+#radio-p {
+    font-size: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.radio-container {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+}
+
 input, select {
     width: 100%;
     padding: 10px;
