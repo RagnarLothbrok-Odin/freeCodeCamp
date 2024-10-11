@@ -1,5 +1,13 @@
+#canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 body {
-    background-color: rgb(50, 50, 50);
+    background-color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +43,10 @@ h1, p {
     text-align: center;
     margin-bottom: 20px;
     color: white
+}
+
+#description {
+    font-style: italic;
 }
 
 form {
